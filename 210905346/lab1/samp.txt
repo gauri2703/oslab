@@ -1,0 +1,7 @@
+Other possible values for oflags are documented in the open manual page, which you
+can find in section 2 of the manual pages (use man 2 open).
+open returns the new file dear descriptor (always a nonnegative integer) if successful, or –1 if
+it fails, at which time open also sets the global variable errno to indicate the reason for
+the failure. We look at errno more closely in a later section. The new file descriptor is
+always the lowest-numbered unused descriptor, a feature that can be quite useful in
+some circumstances.
